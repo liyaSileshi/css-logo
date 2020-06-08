@@ -64,11 +64,12 @@ body {
 
 /* drop */
 .container > div:nth-child(6) {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background-color: rgb(109, 172, 231);
   position: relative;
-  transform: translate(70px, 0px) rotate(45deg);
-  bottom: 170px;
+  transform: translate(120px, 0px) rotate(45deg);
+  bottom: 150px;
   border-radius: 0 50% 50% 50%;
 }
+
