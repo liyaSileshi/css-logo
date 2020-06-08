@@ -8,7 +8,8 @@ body {
 .container {
   width: 200px;
   height: 200px;
-  background-color: rgb(157, 185, 176);
+  /* background-color: rgb(164, 212, 6); */
+  background-color: rgb(240, 237, 50);
 }
 
 /* vase */
@@ -43,7 +44,7 @@ body {
 .container > div:nth-child(4) {
   width: 40px;
   height: 40px;
-  background-color: lightgreen;
+  background-color: rgb(48, 204, 48);
   position: relative;
   transform: translate(60px, 55px) rotate(0deg);
   bottom: 105px;
@@ -54,9 +55,20 @@ body {
 .container > div:nth-child(5) {
   width: 40px;
   height: 40px;
-  background-color: lightgreen;
+  background-color: rgb(48, 204, 48);
   position: relative;
   transform: translate(110px, 10px) rotate(90deg);
   bottom: 100px;
+  border-radius: 0 50% 50% 50%;
+}
+
+/* drop */
+.container > div:nth-child(6) {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(109, 172, 231);
+  position: relative;
+  transform: translate(70px, 0px) rotate(45deg);
+  bottom: 170px;
   border-radius: 0 50% 50% 50%;
 }
