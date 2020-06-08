@@ -1,0 +1,59 @@
+body {
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(157, 185, 176);
+}
+
+/* vase */
+.container > div:first-child {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(226, 43, 119);
+    transform: translate(50px, 145px);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+/* leaf 1 */
+/* .container > div:nth-child(2) {
+  width: 40px;
+  height: 40px;
+  background-color: lightgreen;
+  transform: translate(60px, 55px) rotate(10deg);
+  border-radius: 0 50% 50% 50%;
+} */
+
+
+/* leaf 2 */
+/* .container > div:nth-child(3) {
+  width: 40px;
+  height: 40px;
+  background-color: lightgreen;
+  transform: translate(110px, 10px) rotate(90deg);
+  border-radius: 0 50% 50% 50%;
+} */
+
+/* branch 1 */
+.container > div:nth-child(2) {
+  width: 3px;
+  height: 50px;
+  background-color: rgb(110, 78, 36);
+  transform: translate(120px, 54px) rotate(45deg);
+  border-radius: 0 50% 50% 50%;
+}
+
+/* branch 2 */
+.container > div:nth-child(3) {
+  width: 3px;
+  height: 50px;
+  background-color: rgb(110, 78, 36);
+  transform: translate(85px, 4px) rotate(-45deg);
+  border-radius: 0 50% 50% 50%;
+}
