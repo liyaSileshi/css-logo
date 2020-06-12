@@ -29,7 +29,15 @@ body {
   background-color: rgb(110, 78, 36);
   transform: translate(120px, 54px) rotate(45deg);
   border-radius: 0 50% 50% 50%;
+  transition: 300ms;
 }
+
+/* branch 1  hover */
+.container:hover > div:nth-child(2) {
+  transform: translate(120px, 65px) rotate(90deg);
+}
+
+
 
 /* branch 2 */
 .container > div:nth-child(3) {
@@ -38,7 +46,14 @@ body {
   background-color: rgb(110, 78, 36);
   transform: translate(85px, 4px) rotate(-45deg);
   border-radius: 0 50% 50% 50%;
+  transition: 300ms;
 }
+
+/* branch 2 hover */
+.container:hover > div:nth-child(3) {
+  transform: translate(85px, 15px) rotate(-90deg);
+}
+
 
 /* leaf 1 */
 .container > div:nth-child(4) {
@@ -49,6 +64,12 @@ body {
   transform: translate(60px, 55px) rotate(0deg);
   bottom: 105px;
   border-radius: 0 50% 50% 50%;
+  transition: 300ms;
+}
+
+/* leaf 1 hover */
+.container:hover > div:nth-child(4) {
+  transform: translate(60px, 70px) rotate(-45deg);
 }
 
 /* leaf 2 */
@@ -60,6 +81,14 @@ body {
   transform: translate(110px, 10px) rotate(90deg);
   bottom: 100px;
   border-radius: 0 50% 50% 50%;
+  transition: 300ms;
+}
+
+/* leaf 2 hover*/
+.container:hover > div:nth-child(5) {
+  transform: translate(110px, 25px) rotate(150deg);
+  bottom: 100px;
+
 }
 
 /* drop */
@@ -69,6 +98,16 @@ body {
   background-color: rgb(109, 172, 231);
   position: relative;
   transform: translate(120px, 0px) rotate(45deg);
+  bottom: 150px;
+  border-radius: 0 50% 50% 50%;
+  transition: 400ms;
+  transition-delay: 200ms; 
+}
+
+/* drop hover*/
+.container:hover > div:nth-child(6) {
+  position: relative;
+  transform: translate(120px, 50px) rotate(45deg);
   bottom: 150px;
   border-radius: 0 50% 50% 50%;
 }
